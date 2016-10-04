@@ -1,0 +1,6 @@
+framework module Pods_PictureSharingAppUITests {
+  umbrella header "Pods-PictureSharingAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

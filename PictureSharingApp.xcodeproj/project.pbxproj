@@ -14,6 +14,9 @@
 		80F2DB0A1DA3AF3D003C0C92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80F2DB081DA3AF3D003C0C92 /* LaunchScreen.storyboard */; };
 		80F2DB151DA3AF3E003C0C92 /* PictureSharingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2DB141DA3AF3E003C0C92 /* PictureSharingAppTests.swift */; };
 		80F2DB201DA3AF3E003C0C92 /* PictureSharingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2DB1F1DA3AF3E003C0C92 /* PictureSharingAppUITests.swift */; };
+		A93FEF3F931F6695837C0E2A /* Pods_PictureSharingAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D68D413B3FFB9978D36BCE01 /* Pods_PictureSharingAppUITests.framework */; };
+		AB635652CA24B5776742C447 /* Pods_PictureSharingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A38272022A3AEB33D086EE9D /* Pods_PictureSharingApp.framework */; };
+		E0A6A332099899AA5242B53A /* Pods_PictureSharingAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5742D9B2476F40793D7A2490 /* Pods_PictureSharingAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		41917BCB7F6B38D6D64B282D /* Pods-PictureSharingAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictureSharingAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PictureSharingAppTests/Pods-PictureSharingAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5742D9B2476F40793D7A2490 /* Pods_PictureSharingAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PictureSharingAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77504BEE4857222E6F717FBF /* Pods-PictureSharingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictureSharingApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PictureSharingApp/Pods-PictureSharingApp.debug.xcconfig"; sourceTree = "<group>"; };
 		80F2DAFC1DA3AF3D003C0C92 /* PictureSharingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PictureSharingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F2DAFF1DA3AF3D003C0C92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80F2DB011DA3AF3D003C0C92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		80F2DB1B1DA3AF3E003C0C92 /* PictureSharingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictureSharingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F2DB1F1DA3AF3E003C0C92 /* PictureSharingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureSharingAppUITests.swift; sourceTree = "<group>"; };
 		80F2DB211DA3AF3E003C0C92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FE8D4422F7BB370FF3D8E51 /* Pods-PictureSharingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictureSharingApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-PictureSharingApp/Pods-PictureSharingApp.release.xcconfig"; sourceTree = "<group>"; };
+		92BC047C919F5CA845B69DE1 /* Pods-PictureSharingAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictureSharingAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PictureSharingAppUITests/Pods-PictureSharingAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A38272022A3AEB33D086EE9D /* Pods_PictureSharingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PictureSharingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9490AB5A1A6B6E6E86D31DF /* Pods-PictureSharingAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictureSharingAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PictureSharingAppUITests/Pods-PictureSharingAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D68D413B3FFB9978D36BCE01 /* Pods_PictureSharingAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PictureSharingAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6D259523C0FFFAE9D357838 /* Pods-PictureSharingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictureSharingAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PictureSharingAppTests/Pods-PictureSharingAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB635652CA24B5776742C447 /* Pods_PictureSharingApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0A6A332099899AA5242B53A /* Pods_PictureSharingAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A93FEF3F931F6695837C0E2A /* Pods_PictureSharingAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CAF4079CA762A05A22BEF88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77504BEE4857222E6F717FBF /* Pods-PictureSharingApp.debug.xcconfig */,
+				8FE8D4422F7BB370FF3D8E51 /* Pods-PictureSharingApp.release.xcconfig */,
+				41917BCB7F6B38D6D64B282D /* Pods-PictureSharingAppTests.debug.xcconfig */,
+				F6D259523C0FFFAE9D357838 /* Pods-PictureSharingAppTests.release.xcconfig */,
+				A9490AB5A1A6B6E6E86D31DF /* Pods-PictureSharingAppUITests.debug.xcconfig */,
+				92BC047C919F5CA845B69DE1 /* Pods-PictureSharingAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7305E7B1CB567AC2FFCF4470 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A38272022A3AEB33D086EE9D /* Pods_PictureSharingApp.framework */,
+				5742D9B2476F40793D7A2490 /* Pods_PictureSharingAppTests.framework */,
+				D68D413B3FFB9978D36BCE01 /* Pods_PictureSharingAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		80F2DAF31DA3AF3D003C0C92 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				80F2DB131DA3AF3E003C0C92 /* PictureSharingAppTests */,
 				80F2DB1E1DA3AF3E003C0C92 /* PictureSharingAppUITests */,
 				80F2DAFD1DA3AF3D003C0C92 /* Products */,
+				2CAF4079CA762A05A22BEF88 /* Pods */,
+				7305E7B1CB567AC2FFCF4470 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80F2DB241DA3AF3E003C0C92 /* Build configuration list for PBXNativeTarget "PictureSharingApp" */;
 			buildPhases = (
+				B74E3DF80AFB9AF3785BB9BC /* [CP] Check Pods Manifest.lock */,
 				80F2DAF81DA3AF3D003C0C92 /* Sources */,
 				80F2DAF91DA3AF3D003C0C92 /* Frameworks */,
 				80F2DAFA1DA3AF3D003C0C92 /* Resources */,
+				D96447CB15D1DC54566CE579 /* [CP] Embed Pods Frameworks */,
+				72D924083275D2FD77B4A3B4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80F2DB271DA3AF3E003C0C92 /* Build configuration list for PBXNativeTarget "PictureSharingAppTests" */;
 			buildPhases = (
+				E6277709599C260B59C9FE10 /* [CP] Check Pods Manifest.lock */,
 				80F2DB0C1DA3AF3E003C0C92 /* Sources */,
 				80F2DB0D1DA3AF3E003C0C92 /* Frameworks */,
 				80F2DB0E1DA3AF3E003C0C92 /* Resources */,
+				00E88D0498062C23BDD9D54A /* [CP] Embed Pods Frameworks */,
+				ADAEF7D8ED0919A89BE57685 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80F2DB2A1DA3AF3E003C0C92 /* Build configuration list for PBXNativeTarget "PictureSharingAppUITests" */;
 			buildPhases = (
+				6C9792AD6F0DA8FAA8AD1F0C /* [CP] Check Pods Manifest.lock */,
 				80F2DB171DA3AF3E003C0C92 /* Sources */,
 				80F2DB181DA3AF3E003C0C92 /* Frameworks */,
 				80F2DB191DA3AF3E003C0C92 /* Resources */,
+				7B1D0DC1C0C7CB958B2943CC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +301,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00E88D0498062C23BDD9D54A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PictureSharingAppTests/Pods-PictureSharingAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C9792AD6F0DA8FAA8AD1F0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		72D924083275D2FD77B4A3B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PictureSharingApp/Pods-PictureSharingApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B1D0DC1C0C7CB958B2943CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PictureSharingAppUITests/Pods-PictureSharingAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADAEF7D8ED0919A89BE57685 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PictureSharingAppTests/Pods-PictureSharingAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B74E3DF80AFB9AF3785BB9BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D96447CB15D1DC54566CE579 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PictureSharingApp/Pods-PictureSharingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6277709599C260B59C9FE10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		80F2DAF81DA3AF3D003C0C92 /* Sources */ = {
@@ -410,6 +581,7 @@
 		};
 		80F2DB251DA3AF3E003C0C92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77504BEE4857222E6F717FBF /* Pods-PictureSharingApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PictureSharingApp/Info.plist;
@@ -422,6 +594,7 @@
 		};
 		80F2DB261DA3AF3E003C0C92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FE8D4422F7BB370FF3D8E51 /* Pods-PictureSharingApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PictureSharingApp/Info.plist;
@@ -434,6 +607,7 @@
 		};
 		80F2DB281DA3AF3E003C0C92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41917BCB7F6B38D6D64B282D /* Pods-PictureSharingAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +622,7 @@
 		};
 		80F2DB291DA3AF3E003C0C92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6D259523C0FFFAE9D357838 /* Pods-PictureSharingAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +637,7 @@
 		};
 		80F2DB2B1DA3AF3E003C0C92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9490AB5A1A6B6E6E86D31DF /* Pods-PictureSharingAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = PictureSharingAppUITests/Info.plist;
@@ -475,6 +651,7 @@
 		};
 		80F2DB2C1DA3AF3E003C0C92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92BC047C919F5CA845B69DE1 /* Pods-PictureSharingAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = PictureSharingAppUITests/Info.plist;
@@ -505,6 +682,7 @@
 				80F2DB261DA3AF3E003C0C92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80F2DB271DA3AF3E003C0C92 /* Build configuration list for PBXNativeTarget "PictureSharingAppTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +691,7 @@
 				80F2DB291DA3AF3E003C0C92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80F2DB2A1DA3AF3E003C0C92 /* Build configuration list for PBXNativeTarget "PictureSharingAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +700,7 @@
 				80F2DB2C1DA3AF3E003C0C92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

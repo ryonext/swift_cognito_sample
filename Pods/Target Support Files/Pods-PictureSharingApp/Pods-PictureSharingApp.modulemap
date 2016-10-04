@@ -1,0 +1,6 @@
+framework module Pods_PictureSharingApp {
+  umbrella header "Pods-PictureSharingApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
