@@ -53,6 +53,7 @@
 		80F2DB1B1DA3AF3E003C0C92 /* PictureSharingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictureSharingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F2DB1F1DA3AF3E003C0C92 /* PictureSharingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureSharingAppUITests.swift; sourceTree = "<group>"; };
 		80F2DB211DA3AF3E003C0C92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80F2DB2D1DA3B802003C0C92 /* PictureSharingApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PictureSharingApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		8FE8D4422F7BB370FF3D8E51 /* Pods-PictureSharingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictureSharingApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-PictureSharingApp/Pods-PictureSharingApp.release.xcconfig"; sourceTree = "<group>"; };
 		92BC047C919F5CA845B69DE1 /* Pods-PictureSharingAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictureSharingAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PictureSharingAppUITests/Pods-PictureSharingAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A38272022A3AEB33D086EE9D /* Pods_PictureSharingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PictureSharingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,6 +144,7 @@
 				80F2DB061DA3AF3D003C0C92 /* Assets.xcassets */,
 				80F2DB081DA3AF3D003C0C92 /* LaunchScreen.storyboard */,
 				80F2DB0B1DA3AF3D003C0C92 /* Info.plist */,
+				80F2DB2D1DA3B802003C0C92 /* PictureSharingApp-Bridging-Header.h */,
 			);
 			path = PictureSharingApp;
 			sourceTree = "<group>";
