@@ -7,8 +7,8 @@
 //
 
 import UIKit
-
 import AWSCore
+import AWSCognito
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,6 +18,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let credentialsProvider = AWSCognitoCredentialsProvider(regionType: .apNortheast1, identityPoolId: "")
+        let configuration = AWSServiceConfiguration(region: .apNortheast1, credentialsProvider: credentialsProvider)
+        AWSServiceManager.default().defaultServiceConfiguration = configuration
+        
+        var syncClient = AWSCognito.default()
+        syncClient.openOrCreateDataset("myDataset")
+        
+        
         return true
     }
 
