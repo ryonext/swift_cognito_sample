@@ -22,10 +22,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let configuration = AWSServiceConfiguration(region: .apNortheast1, credentialsProvider: credentialsProvider)
         AWSServiceManager.default().defaultServiceConfiguration = configuration
         
-        var syncClient = AWSCognito.default()
-        syncClient.openOrCreateDataset("myDataset")
-        
-        
+        let syncClient = AWSCognito.default()
+        var dataset = syncClient?.openOrCreateDataset("myDataset")
+        dataset?.setString("myValue", forKey:"myKey")
+        dataset?.synchronize().continue(_:) {(task: AWSTask!) -> AnyObject! in
+            // Your handler code here
+            return nil
+            
+        }
         return true
     }
 
